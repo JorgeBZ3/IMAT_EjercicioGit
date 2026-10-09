@@ -10,7 +10,7 @@
             int primero = int.Parse(idTexto[0].ToString());
             int penultimo = int.Parse(idTexto[idTexto.Length - 2].ToString());
             if (penultimo == 0) {
-                Console.WriteLine("Error. División por cero.");
+                Console.WriteLine("Error. División por cero. Numerador: " + primero + " Denominador: " + penultimo);
 
             }
             else { 
