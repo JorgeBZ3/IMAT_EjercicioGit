@@ -10,7 +10,9 @@
             int primero = int.Parse(idTexto[0].ToString());
             int penultimo = int.Parse(idTexto[idTexto.Length - 2].ToString());
 
+
             Console.WriteLine("La división del primer y penúltimo dígito del ID " + ID + " es: "+ Divide(primero, penultimo));
+
         }
 
         static int Add(int x, int y)
@@ -23,9 +25,16 @@
             return x * y;
         }
 
+
         static int Divide(int x, int y)
         {
             return x / y;
+        }
+
+        static int Subtract(int x, int y)
+        {
+            return x - y;
+
         }
     }
 }
