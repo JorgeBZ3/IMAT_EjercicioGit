@@ -10,7 +10,7 @@
             int primero = int.Parse(idTexto[0].ToString());
             int ultimo = int.Parse(idTexto[idTexto.Length - 1].ToString());
 
-            Console.WriteLine("La multiplicación del primer y último dígito del ID " + ID + " es: "+ Multiply(primero, ultimo));
+            Console.WriteLine("La resta del primer y último dígito del ID " + ID + " es: "+ Subtract(primero, ultimo));
         }
 
         static int Add(int x, int y)
@@ -21,6 +21,11 @@
         static int Multiply(int x, int y)
         {
             return x * y;
+        }
+
+        static int Subtract(int x, int y)
+        {
+            return x - y;
         }
     }
 }
